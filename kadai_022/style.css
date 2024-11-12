@@ -53,7 +53,8 @@ h2::before {
     font-size: 25px;
   }
   #parent {
-    display: block;
+    display: flex;
+    flex-direction: column;
   }
 }
 footer {
@@ -63,7 +64,7 @@ footer {
 a {
   color: rgb(255, 255, 255);
 }
-a:link {
+a:visited {
   color: rgb(193, 234, 251);
 }
 a:hover {
